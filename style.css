@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'CustomFont';
-    src: url('fonts/wideLatin.ttf') format('truetype');
+    src: url('fonts/Chivo.ttf') format('truetype');
   }
 
 html {
     overflow: hidden;
     height: 100%;
+    overflow-x: hidden!important
 }
 
 body {
@@ -25,10 +26,6 @@ header {
     background-color: #000000;
 }
   
-header h1 {
-    font-size: 48px;
-}
-  
 section {
     padding: 50px 0;
     text-align: center;
@@ -40,32 +37,54 @@ section h2 {
     color: white;
 }
 
+section h3 {
+    font-size: 30px;
+    color: white;
+}
+
 p {
     color: white;
 }
-  
-/* form {
-    margin-top: 20px;
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
   
-form input[type="email"] {
-    padding: 10px;
-    width: 250px;
-}
-  
-form button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-  
-footer {
-    background-color: #000;
-    padding: 20px;
+input[type=email] {
     text-align: center;
-} */
+    width: 250px;
+    background-color: #000000;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=email]:focus {
+    text-align: center;
+    border: 3px solid #555;
+    color: #fff;
+  }
+
+  button[type=submit] {
+    width: 100px;
+    background-color: #000000;
+    color: #fff;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  button[type=submit]:focus {
+    border: 3px solid #555;
+    color: #fff;
+  }
 
 
 
