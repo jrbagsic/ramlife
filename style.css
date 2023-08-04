@@ -92,16 +92,13 @@ input[type=email] {
     color: #000;
   }
 
-  /* hide scrollbar but allow scrolling */
-element {
+  body {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
-}
-
-element::-webkit-scrollbar {
+  }
+  
+  body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
-}
-
-
+  }
 
