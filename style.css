@@ -74,22 +74,22 @@ input[type=email] {
   }
 
   button[type=submit] {
-    height: 40px;
+    height: 42px;
     width: 100px;
-    background-color: #000000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     box-sizing: border-box;
-    border: 3px solid #fff;
+    border: 3px solid #000;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
   }
   
   button[type=submit]:focus {
-    height: 40px;
+    height: 42px;
     width: 100px;
-    border: 3px solid #555;
-    color: #fff;
+    border: 3px solid #fff;
+    color: #000;
   }
 
   /* hide scrollbar but allow scrolling */
