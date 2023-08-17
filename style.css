@@ -55,6 +55,11 @@ section h3 {
     color: white;
 }
 
+section h4 {
+  font-size: 20px;
+  color: white;
+}
+
 p {
     color: white;
 }
