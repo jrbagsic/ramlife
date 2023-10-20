@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('images/background.jpeg');
-    background-size: cover;
+    background-size: 99.9%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
