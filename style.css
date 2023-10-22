@@ -21,10 +21,16 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('images/background.jpeg');
-    background-size: 99.9%;
+    z-index: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+}
+
+@media (max-width: 480px) {
+  body {
+      background-image: url(images/background.jpeg);
+  }
 }
   
 header {
